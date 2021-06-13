@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 13JUN2021
+  Changes:
+    - Fixed startup error when signal_to_color_mapping is removed by another mod or does not exist
+    - Added dependency on data_final_final_i_swear
+
+---------------------------------------------------------------------------------------------------
 Version: 0.0.1
 Date: 12JUN2021
   Changes:

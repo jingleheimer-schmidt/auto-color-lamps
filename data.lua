@@ -46,6 +46,9 @@ end
 
 for a,b in pairs(lamp_color_mapping) do
   for c,d in pairs(data.raw.lamp) do
+    if not d.signal_to_color_mapping then
+      d.signal_to_color_mapping = {}
+    end
     if not color_exists(d.signal_to_color_mapping, b.name) then
       table.insert(d.signal_to_color_mapping, b)
     end
