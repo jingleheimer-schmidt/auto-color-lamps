@@ -1,10 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 01JUL2021
+  Changes:
+    - Removed data-updates script to lessen mod name clutter in tooltips
+    - Removed dependency for data_final_final_i_swear due to unresolvable circular dependency
+    - Added optional dependency for dectorio
+---------------------------------------------------------------------------------------------------
 Version: 0.0.2
 Date: 13JUN2021
   Changes:
     - Fixed startup error when signal_to_color_mapping is removed by another mod or does not exist
-    - Added dependency on data_final_final_i_swear
-
+    - Added dependency for data_final_final_i_swear
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.1
 Date: 12JUN2021

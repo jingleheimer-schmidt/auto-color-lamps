@@ -1,5 +1,32 @@
 
 local potential_lamp_colors = require("items_with_colors")
+-- local additional = {
+--   IndustrialRevolution = require("IR2_colors"),
+--   -- deadlock = require("deadlock"),
+-- }
+-- for e,f in pairs(additional) do
+--   if mods[e] then
+--     for a,b in pairs(f) do
+--       if color_is_in_base(b.name) then
+--         for c,d in pairs(potential_lamp_colors) do
+--           if d.name == b.name then
+--             potential_lamp_colors[c] = b
+--           end
+--         end
+--       else
+--         table.insert(potential_lamp_colors, b)
+--       end
+--     end
+--   end
+-- end
+--
+-- function color_is_in_base(name)
+--   for a,b in pairs(potential_lamp_colors) do
+--     if name == b.name then
+--       reutrn true
+--     end
+--   end
+-- end
 
 for a,b in pairs(data.raw.fluid) do
   local fluid_color = {
@@ -54,3 +81,14 @@ for a,b in pairs(lamp_color_mapping) do
     end
   end
 end
+
+-- local items = {}
+-- for a,b in pairs(game.item_prototypes) do
+--   local item = {
+--     type = b.type,
+--     name = b.name,
+--     color = "XYXYX"
+--   }
+--   table.insert(items, item)
+-- end
+-- game.write_file("items_list", serpent.block(items))
