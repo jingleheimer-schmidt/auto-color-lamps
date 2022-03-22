@@ -1,45 +1,47 @@
+-- not using different colors for the aai containers mod
+-- copying the colors from the vanilla color table and then adding in the SE items
 
 require("util")
 
 local table_of_items_with_colors =
 {
   {
-    color = util.color("XXXXX"),
+    color = util.color("D9984A"),
     name = "wooden-chest",
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("BF967E"),
     name = "iron-chest",
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("BFA8B1"),
     name = "steel-chest",
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("C252F2"),
     name = "logistic-chest-active-provider",
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("F24141"),
     name = "logistic-chest-passive-provider",
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("F2C84B"),
     name = "logistic-chest-storage",
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("66F289"),
     name = "logistic-chest-buffer",
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("89CAD9"),
     name = "logistic-chest-requester",
     type = "item"
   },
@@ -64,17 +66,17 @@ local table_of_items_with_colors =
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("F2CD35"),
     name = "transport-belt",
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("FF1817"),
     name = "fast-transport-belt",
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("43F4FC"),
     name = "express-transport-belt",
     type = "item"
   },
@@ -124,17 +126,17 @@ local table_of_items_with_colors =
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("F2CD35"),
     name = "underground-belt",
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("FF1817"),
     name = "fast-underground-belt",
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("43F4FC"),
     name = "express-underground-belt",
     type = "item"
   },
@@ -184,17 +186,17 @@ local table_of_items_with_colors =
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("F2CD35"),
     name = "splitter",
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("FF1817"),
     name = "fast-splitter",
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("43F4FC"),
     name = "express-splitter",
     type = "item"
   },
@@ -324,7 +326,7 @@ local table_of_items_with_colors =
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("9F917B"),
     name = "storage-tank",
     type = "item"
   },
