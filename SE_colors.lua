@@ -4,17 +4,17 @@ require("util")
 local table_of_items_with_colors =
 {
   {
-    color = util.color("XXXXX"),
+    color = util.color("D9984A"),
     name = "wooden-chest",
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("BF967E"),
     name = "iron-chest",
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("BFA8B1"),
     name = "steel-chest",
     type = "item"
   },
@@ -324,7 +324,7 @@ local table_of_items_with_colors =
     type = "item"
   },
   {
-    color = util.color("XXXXX"),
+    color = util.color("9F917B"),
     name = "storage-tank",
     type = "item"
   },
