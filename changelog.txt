@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 19DEC2022
+  Changes:
+    - Fixed error loading mods when the hardcorio mod is enabled
+    - Removed data script to lessen mod name clutter in tooltips
+    - Changed alpha for fluid and fluid-barrel colors from 0.75 to 0.5
+---------------------------------------------------------------------------------------------------
 Version: 0.0.3
 Date: 01JUL2021
   Changes:
