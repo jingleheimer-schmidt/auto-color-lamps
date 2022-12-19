@@ -3,7 +3,7 @@
 	"name": "auto-color-lamps",
 	"version": "0.0.4",
 	"title": "Auto Color Lamps",
-	"description": "Automatically colors lamps according to the color of item and fluid signals passed to them.",
+	"description": "Automatically colors lamps based on any available item or fluid signals",
 	"author": "asher_sky",
 	"dependencies": ["base >= 1.1.0", "(?) Dectorio", "(?) hardcorio"],
 	"factorio_version": "1.1"
